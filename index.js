@@ -27,7 +27,7 @@ const sendVids = async function (nVids, myAd) {
 				//videosSent == 2 ||
 				if (videosSent == nVids / 2) {
 
-					//let nr =  Math.floor(Math.random() * 4)
+					//let nr =  Math.floor(Math.random() * 4) ...
 					//await new Promise((resolve) => setTimeout(resolve, 800))
 					//myAd.type
 					switch (myAd.type) {
