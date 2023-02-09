@@ -13,10 +13,10 @@ const sendVids = async function (nVids, myAd) {
 
 	await sc.search(nVids).then(async (videos) => {
 		console.log(videos.length + " videos encontrados")
-		bot.telegram.sendMessage(
-			idChat,
-			"🔥 .  .  .  🔥  .  . New .  .  🔥  .  .  . 🔥"
-		)
+		//bot.telegram.sendMessage(
+		//	idChat,
+		//	"🔥 .  .  .  🔥  .  . New .  .  🔥  .  .  . 🔥"
+		//)
 		await new Promise((resolve) => setTimeout(resolve, 500))
 
 		for (let i = 0; i < videos.length; i++) {
